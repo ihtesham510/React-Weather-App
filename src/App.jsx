@@ -1,7 +1,7 @@
+import Body from './Components/Body/Main'
 import Header from './Components/Header/Main'
 
 const App = () => {
-
   return (
     <>
       <head>
@@ -12,6 +12,7 @@ const App = () => {
       </head>
       <body>
         <Header />
+        <Body />
       </body>
     </>
   )
